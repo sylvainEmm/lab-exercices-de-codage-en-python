@@ -42,6 +42,10 @@ jobs:
           cd 02
           bash .scripts/run.sh
           cd ..
+          echo "Evaluating Exercise 03 Participation"
+          cd 03
+          bash .scripts/run.sh
+          cd ..
 
 
       - name: Commit files
