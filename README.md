@@ -25,3 +25,6 @@ Apprentissage du language Python par des exercices
 | :one: | [:bookmark:](01/programme.py) | :tada: |
 | :two: | [:bookmark:](02/programme.py) | :tada: |
 | :three: | [:bookmark:](03/programme.py) | :x: |
+| :one: | [:bookmark:](01/programme.py) | :tada: |
+| :two: | [:bookmark:](02/programme.py) | :tada: |
+| :three: | [:bookmark:](03/programme.py) | :x: |
