@@ -8,8 +8,8 @@
 
 generate_spec () {
    FUNCTION="exo_03"
-   PARAMETER="( 09, 'December', 2020 )"
-   RESPONSE="('December', 09, 2020)"
+   PARAMETER="( 9, 'December', 2020 )"
+   RESPONSE="('December', 9, 2020)"
    FILE=programme
    echo "import sys; sys.path.append('.') # Rajouter le repertoire courant" > .scripts/${FILE}0000.py
    echo "import pytest" >> .scripts/${FILE}0000.py
