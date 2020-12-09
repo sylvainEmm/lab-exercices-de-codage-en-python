@@ -3,12 +3,12 @@
 # --------------------------------------
 # Spec (test) specific file
 # Use this to customize the testing files
-# code: 
+# code:
 # --------------------------------------
 
 generate_spec () {
    FUNCTION="exo_03"
-   PARAMETER="( 9, 'December', 2020 )"
+   PARAMETER="( ( 9, 'December', 2020 ) )"
    RESPONSE="('December', 9, 2020)"
    FILE=programme
    echo "import sys; sys.path.append('.') # Rajouter le repertoire courant" > .scripts/${FILE}0000.py
@@ -22,4 +22,3 @@ generate_spec () {
    echo "def test_answer(bypass):" >> .scripts/${FILE}0000.py
    echo "   assert bypass == ${RESPONSE}" >> .scripts/${FILE}0000.py
 }
-
