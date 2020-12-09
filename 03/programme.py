@@ -7,8 +7,8 @@
 def exo_03(tuple):
   # Ajouter le code permettant d'inverser la tuple
   # sous la forme 'Decembre' 9 2020
-  x=("decembre",9,2020)
-  b,a,c=x
+  x=(9,"decembre",2020)
+  a,b,c=x
   return (b, a , c)
 
 def main():

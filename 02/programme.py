@@ -5,8 +5,8 @@
 """
 
 def exo_02():
-  A="BONJOUR"
-  return A
+  a="Bonjour"
+  return a
 
 def main():
   print( exo_02() )
