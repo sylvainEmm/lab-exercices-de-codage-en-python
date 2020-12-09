@@ -11,7 +11,7 @@ def exo_03(tuple):
   return (b, a , c)
 
 def main():
-  print( exo_03( ( 09, "Decembre" , 2020 ) ) )
+  print( exo_03( ( 9, "Decembre" , 2020 ) ) )
 
 if __name__== "__main__":
   main()
